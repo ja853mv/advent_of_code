@@ -1,7 +1,7 @@
 
 
 def read_file():
-    file = open("input.txt", "r")
+    file = open("test_input.txt", "r")
     data = []
     [data.append(l.replace("\n", "")) for l in file]
     return data
